@@ -1,47 +1,71 @@
 #include <stdio.h>
 
-int main(){
+int main() {
+    char estado_01[50];
+    char cod_carta_01[10];
+    char nome_cidade_01[10];
+    int populacao_01;
+    float area_km_01;
+    float pib_01;
+    int ponto_turistico_01;
 
-    char estado_1;
-    char cod_carta [5] = 01;
-    char nome_cidade [10] = rio;
-    int populacao_6729894;
-    float area_km_1200330;
-    float pib_5307823;
-    int ponto_turistico_58;
+    char estado_02[50];
+    char cod_carta_02[10];
+    char nome_cidade_02[10];
+    int populacao_02;
+    float area_km_02;
+    float pib_02;
+    int ponto_turistico_02;
 
-    printf("digite seu estado:");
-    scanf("%s",&estado_1);
-    printf("o estado é: %s\n", estado_1);
+    printf("Digite seu estado: ");
+    scanf("%s", estado_01);
+    printf("O estado é: %s\n", estado_01);
 
-    printf("Cod da carta:");
-    scanf("%c",&cod_carta);
-    printf("o cod carta é:");
+    printf("Digite cod. da carta: ");
+    scanf("%s", cod_carta_01);
+    printf("O cod da carta é: %s\n", cod_carta_01);
 
-    printf("nome da cidade:");
-    scanf("%s",&nome_cidade);
-    printf("a cidade é:");
+    printf("Digite nome da cidade: ");
+    scanf("%s", nome_cidade_01);
+    printf("A cidade é: %s\n", nome_cidade_01);
 
-    printf("populacao");
-    scanf("%d",&populacao);
-    printf("a populacao é:");
+    printf("Digite populacao: ");
+    scanf("%d", &populacao_01);
+    printf("A populacao é: %d\n", populacao_01);
 
-    printf("area em km");
-    scanf("%f",&area_km);
-    printf("a area em km é:");
+    printf("Digite area km: ");
+    scanf("%f", &area_km_01);
+    printf("A area km é: %.2f\n", area_km_01);
 
-    printf("digite o pib");
-    scanf("%f",&pib);
-    printf("o pib é:");
+    printf("Digite PIB: ");
+    scanf("%f", &pib_01);
+    printf("O PIB é: %.2f\n", pib_01);
+    
+     printf("Digite seu estado: ");
+    scanf("%s", estado_02);
+    printf("O estado é: %s\n", estado_02);
 
-    printf("ponto turistico");
-    scanf("%d",&ponto_turistico);
-    printf("o ponto turistico é:");
+    printf("Digite cod. da carta: ");
+    scanf("%s", cod_carta_02);
+    printf("O cod da carta é: %s\n", cod_carta_02);
 
+    printf("Digite nome da cidade: ");
+    scanf("%s", nome_cidade_02);
+    printf("A cidade é: %s\n", nome_cidade_02);
 
+    printf("Digite populacao: ");
+    scanf("%d", &populacao_02);
+    printf("A populacao é: %d\n", populacao_02);
 
+    printf("Digite area km: ");
+    scanf("%f", &area_km_02);
+    printf("A area km é: %.2f\n", area_km_02);
 
-
-
-
+    printf("Digite PIB: ");
+    scanf("%f", &pib_02);
+    printf("O PIB é: %.2f\n", pib_02);
+    
+    
+    
+    return 0;
 }
